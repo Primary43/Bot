@@ -1,8 +1,8 @@
-# Disbot Scrape + Python wrangling + MongoDB database
+# Disbot Scraping + Python wrangling + MongoDB database and dashboard
 # -----------------------------
 ## An automated bot for an educational Discord channel.
-#### - extracted messages using discord API
-#### - performed data cleaning, preprocessing, text analysis, and stored on MongoDB database
+#### - This bot extractes historical messages from different chat rooms using discord API 
+#### - Pre-processing includes data cleaning and text analysis (remove_stopwords, punctuation, Tokenization, Lemmatizing), exporting and storeing post-processed data on MongoDB database
 #### - integrated real-time dashboard
   
 ## Final DisBot Dashboard on MongoDB
