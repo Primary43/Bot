@@ -7,4 +7,4 @@
   
 ## Final DisBot Dashboard on MongoDB
 #### https://charts.mongodb.com/charts-disbot-fgnht/public/dashboards/60acf749-713d-4858-8c65-3980e916cbfa
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/Primary43/Disbot-Scrape-Python-wrangling-MongoDB-database/blob/main/DashboardBot.png)
