@@ -7,26 +7,18 @@ from datetime import datetime
 from realText import textAna
 import json
 
+#mongodb server for collecting the scaped data
 client = MongoClient()
-
-
 client = MongoClient(
     "mongodb+srv://dbBot:dbBot4343@cluster0.ahhgb.mongodb.net/test")
 db = client["disBotDB"]
 collection = db["disBotDB"]
-
-
-
-
-#cluster = MongoClient("mongodb+srv://dbBot:dbBot4343@cluster0.ahhgb.mongodb.net/test")
-#db = cluster["disBotDB"]
 
 intents = discord.Intents.default()
 intents.members = True
 client = discord.Client(intents=intents)
 guild = discord.Guild
 bot = commands.Bot(command_prefix='prefix', self_bot=True)
-
 
 #connect Bot to Discord Server
 @client.event
@@ -38,7 +30,7 @@ async def on_ready():
           f'{guild.name}(id: {guild.id})')
 
 
-#greeting new member function
+#bot function1:greeting new member function
 @client.event
 async def on_member_join(member):
     try:
@@ -50,7 +42,7 @@ async def on_member_join(member):
     #await member.dm_channel.send(f'Hello! {member.name}, welcome to our DisBot server! Key ? for instruction')
 
 
-#assitance function
+#bot fuction2: assitance function
 @client.event
 async def on_message(message):
     if message.author == client.user:
@@ -170,7 +162,7 @@ async def on_message(message):
             answer.set_image(url="attachment://dash.JPG")
             await message.channel.send(embed=answer, file=file)
 
-    # extract data function
+    #extract data function
         if cmd == 'exp':
             data = pd.DataFrame(
                 columns=['content', 'time', 'author', 'channel'])
