@@ -1,4 +1,6 @@
 # Disbot Scraping + Python wrangling + MongoDB database and dashboard
+<img src="https://github.com/Primary43/Disbot-Scrape-Python-wrangling-MongoDB-database/blob/main/Dashboardarc.png" width="800" >
+
 # -----------------------------
 ## An automated bot for an educational Discord channel.
 #### - This bot extractes historical messages from different chat rooms using discord API 
