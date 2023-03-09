@@ -3,7 +3,7 @@
 
 # -----------------------------
 ## An automated bot for an educational Discord channel.
-#### - This bot extractes historical messages from different chat rooms using discord API 
+#### - This bot extracts historical messages from different chat rooms using discord API 
 #### - Pre-processing includes data cleaning and text analysis (remove_stopwords, punctuation, Tokenization, Lemmatizing), exporting and storeing post-processed data on MongoDB database
 #### - integrated real-time dashboard
 <img src="https://github.com/Primary43/Disbot-Scrape-Python-wrangling-MongoDB-database/blob/main/Botpic.png" width="800" >
